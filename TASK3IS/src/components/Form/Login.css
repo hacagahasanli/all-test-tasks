@@ -1,0 +1,86 @@
+.form-control2 {
+    margin-bottom: 1rem;
+    max-width: 33rem;
+  }
+  
+  .form-control2 input,
+  .form-control2 label {
+    display: block;
+  }
+  
+  .form-control2 label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control2 input,
+  .form-control2 select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .form-control2 input:focus {
+    outline: none;
+    border-color: #240370;
+    background-color: #e0d4fd;
+  }
+  
+  .control-group2 {
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .control-group2 .form-control2 {
+    min-width: 15rem;
+    flex: 1;
+  }
+  
+  button {
+    font: inherit;
+    background-color: #240370;
+    color: white;
+    margin-top:2rem;
+    border: 1px solid #240370;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  button:active {
+    background-color: #33059e;
+    border-color: #33059e;
+  }
+  
+  .form-actions2 {
+    text-align: right;
+  }
+  
+  .form-actions2 button {
+    margin-left: 1rem;
+  }
+  
+  .invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  
+  .error-text {
+    color: #b40e0e;
+  }
+  
+  button:disabled,
+  button:disabled:hover,
+  button:disabled:active {
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  

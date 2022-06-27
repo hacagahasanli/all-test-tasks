@@ -1,0 +1,50 @@
+.submit{
+    color: white;
+    cursor: pointer;
+}
+form{
+    text-align: center;
+}
+.input,
+.submit {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.input {
+    border: 1px solid lightgray;
+}
+
+.wrong{
+    background-color: rgba(240, 95, 82, 0.965);
+}
+
+.submit {
+    background-color: rgb(6, 55, 6);
+    border: 1px solid transparent;
+}
+
+.wrapper__message{
+    &__correct{
+        display:none;
+        font-weight:600;
+        color: green;
+        font-size:larger;
+    }
+    &__incorrect{
+        display: none;
+        font-weight: 600;
+        color: red;
+        font-size: larger;
+    }
+}
+
+.active {
+    display:block;
+}
+
+.nonactive{
+    display:none;
+}

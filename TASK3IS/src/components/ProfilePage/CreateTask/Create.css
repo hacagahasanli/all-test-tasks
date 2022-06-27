@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.taskContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: 'Noto Sans JP', sans-serif;;
+}
+
+.title input,
+.title label {
+  display: block;
+}
+
+.title input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 21.5rem;
+  max-width: 100%;
+}
+
+.taskHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+button{
+  position: relative;
+  bottom: 0.5rem;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.textarea textarea {
+    width: 44rem;
+    height: 10rem;
+}
+
+
+@media only screen and (max-width:800px){
+    .textarea textarea {
+        width: 22rem ;
+    }
+    .taskHeader{
+        flex-direction: column;
+    }
+    .btns{
+        margin: 2 auto;
+        flex-direction:column;
+    }
+    
+  }

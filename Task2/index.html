@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Bar Code Reader</title>
+  </head>
+  <body>
+    <form>
+      <div class="wrapper__message">
+        <p class="wrapper__message__correct">Barcode entered correctly✔️</p>
+        <p class="wrapper__message__incorrect">
+          Input is incorrect information❌
+        </p>
+      </div>
+      <input
+        id="barcode"
+        class="input"
+        type="text"
+        placeholder="Search for..."
+        maxlength="13" pattern="\d{13}"
+      />
+      <input id="btn" class="submit" type="submit" value="Submit" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+.taskContainer {
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
+  top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: column;
+  grid-gap: 2rem;
+}
+
+.taskPosition {
+  color: white;
+  position: relative;
+  top: 0.5rem;
+  left: 0.7rem;
+  font-size: smaller;
+  font-weight: 700;
+}
+
+.taskItems {
+  width: 100%;
+  padding-bottom: 1.2rem;
+  border-radius: 5px;
+  background-color: #3c0080;
+}
+
+.taskItem {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: white;
+}
+
+.taskDetails p {
+  padding: 1rem;
+  font-size: smaller;
+}
+
+.taskName {
+  width: 75%;
+  height: 1.2rem;
+  border-radius: 2px;
+  font-size: smaller;
+  background-color: #ffbb00;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+}
+footer {
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+footer input {
+  color: white;
+  width: 100%;
+  font-size: smaller;
+  position: relative;
+  bottom: 0.6rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #3c0080;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .taskContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+  .taskPosition {
+    padding-left: 0.6rem;
+  }
+}

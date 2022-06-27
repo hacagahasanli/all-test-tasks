@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Express Bank Business</title>
+  </head>
+  <body>
+    <!-- START OF HEADER ELEMENTS-->
+
+    <header class="top__header">
+      <!-- START OF FIRST PART OF HEADER -->
+
+      <nav class="navbar">
+        <div class="navbar__left">
+          <a class="navbar__logo">
+            <figure>
+              <img src="./images/headerLogo.png" alt="Express Logo" />
+            </figure>
+          </a>
+          <a class="navbar__left__call" href=""
+            ><ion-icon name="call-outline"></ion-icon><span>132</span></a
+          >
+          <div class="navbar__left__input">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" class="navbar__ul-input" placeholder="Search" />
+          </div>
+        </div>
+
+        <!-- END OF FIRST PART OF HEADER -->
+
+        <!-- START OF SECOND PART OF HEADER -->
+
+        <ul class="navbar__right">
+          <li>
+            <a href=""><ion-icon name="bar-chart-outline"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+          </li>
+          <li class="lock">
+            <a href=""><ion-icon name="lock-closed-outline"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="people-outline"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="settings-outline"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="mail-outline"></ion-icon></a>
+          </li>
+          <li class="icon__not">
+                        <span class="icon__not__count">
+              <p>9</p>
+            </span>
+            <a href=""><ion-icon name="notifications-outline"></ion-icon></a>
+          </li>
+        </ul>
+        <ul class="profile">
+          <li class="navbar__right__profile">
+            <a href="">
+              <p style="font-size: 1rem">Ilya Davidoff</p>
+              <span style="font-size: 13px">Apple INC, Admin</span>
+            </a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="exit-outline"></ion-icon></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- END OF HEADER NAVBAR ELEMENTS-->
+
+    <!--START OF LANDING PAGE SECTION ELEMENTS-->
+
+    <section class="section">
+      <div class="section__container">
+        <nav class="nav">
+          <div class="nav__cont">
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="speedometer-outline"></ion-icon>
+              </div>
+              <div>Dashboard</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="swap-horizontal-outline"></ion-icon>
+              </div>
+              <div>Payments</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="newspaper-outline"></ion-icon>
+              </div>
+              <div>Payroll</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="list-outline"></ion-icon>
+              </div>
+              <div>Templates</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <div>History</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv special__icon">
+                <ion-icon name="reader-outline"></ion-icon>
+              </div>
+              <div>Products</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="diamond-outline"></ion-icon>
+              </div>
+              <div>Express POS</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="scan-circle-outline"></ion-icon>
+              </div>
+              <div>Ani Pay</div>
+            </a>
+            <a href="#">
+              <div class="nav__cont__icondiv">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div>Map</div>
+            </a>
+          </div>
+        </nav>
+        <main>
+          <!--START OF MAIN SIDE HEADER ELEMENTS-->
+
+          <header>
+            <div class="header__container">
+              <a>
+                <span>На подпись</span>
+                <div>
+                  <span>5&nbsp;</span>
+                </div>
+              </a>
+              <a>
+                <span>Отправленные в банк</span>
+                <div>
+                  <span>25</span>
+                </div>
+              </a>
+              <a>
+                <span>Исполненные</span>
+                <div>
+                  <span>225</span>
+                </div>
+              </a>
+              <a>
+                <span>Отклоненные</span>
+                <div>
+                  <span>1525</span>
+                </div>
+              </a>
+            </div>
+          </header>
+          <div style="width: 100%; height: 5px;"></div>
+
+          <!--END OF MAIN SIDE HEADER ELEMENTS-->
+
+          <div class="main">
+            <!--HEADER CARD ELEMENTS-->
+
+            <div class="header__card">
+              <div>
+                <h2 style="opacity: 0.7; font-weight: 550;position: relative;left: -8rem;">Cards</h2>
+              </div>
+              <div class="header__card__list">
+                <ul>
+                  <li class="all">
+                    <a href="">All</a>
+                  </li>
+                  <li>
+                    <p>USD</p>
+                    <span>$ 2 000 000</span>
+                  </li>
+                  <li>
+                    <p>RUR</p>
+                    <span>50 000 000 ₽</span>
+                  </li>
+                  <li>
+                    <p>AZN</p>
+                    <span>50 000 ₼</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!--END-->
+
+            <!--MAIN TABLE ELEMENTS-->
+
+            <div class="div__table">
+              <div class="div__table__content header">
+                <a href="">KARTIN ADI</a>
+                <a href="">KARTIN NÖMRƏSİ</a>
+                <a href="">STATUS</a>
+                <a href="">NÖVÜ</a>
+                <a href="">BİTMƏ TARİXİ</a>
+                <a href="">BALANS</a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼ </a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼</a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼</a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼</a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼</a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+              <div class="div__table__content">
+                <a href="">Classic Premium</a>
+                <a href="">4353 54** **** 5465</a>
+                <a href="">Aktiv</a>
+                <a href=""><ion-icon name="card-outline"></ion-icon></a>
+                <a href="">10/19</a>
+                <a href="">20 500 000 ₼</a>
+                <a href=""
+                  ><ion-icon name="ellipsis-vertical-outline"></ion-icon
+                ></a>
+              </div>
+            </div>
+
+            <!--END-->
+          </div>
+        </main>
+      </div>
+    </section>
+    <!--END OF LANDING PAGE SECTION ELEMENTS-->
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
